@@ -1,0 +1,14 @@
+xpath.el is a library for interacting with XML from emacs using the xpath specification
+** TODO add link above.
+
+* FAQ
+** who is the official developer of this library?
+Not really sure. I got this code from Emacswiki with the intention of putting it
+on melpa. I contacted the person listed in the source as current maintainer,
+Oliver Scholz <epameinondas@gmx.de> but so far I haven't heard anything back
+about whether Oliver is still working on this project.
+** is this repository going to continue development on xpath.el or just provide packaging?
+This repository will definitely be used for packaging. It might be used for
+further development (for example, the tests in this library do not use ert --
+this would be an easy fix). If you are hoping for this library to become a 100%
+compliant xpath tool, you might find yourself waiting a very long time.
