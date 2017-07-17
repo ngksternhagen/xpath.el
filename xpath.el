@@ -533,7 +533,7 @@ See `xpath-resolve' and `xpath-steps'."
 			 '(chapter title \#text para \#text)))
     (xpath-assert (equal (mapcar 'dom-node-name (xpath-following-axis title))
 			 '(edition \#text authorgroup author firstname
-				   \#text surname \#text chapter title 
+				   \#text surname \#text chapter title
 				   \#text para \#text)))
     (xpath-assert (equal (mapcar 'dom-node-name
 				 (xpath-following-sibling-axis title))
